@@ -2,8 +2,15 @@
 
 run_tests
 run_tests_asan
+run_tests_asan.dSYM/
 run_benchmark
+*.dSYM/
 
 .vscode/
 .DS_Store
 results.csv
+
+googletest/
+build/
+.qtcreator/
+CMakeLists.txt.user*
