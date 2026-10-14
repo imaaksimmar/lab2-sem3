@@ -1,0 +1,9 @@
+*.o
+
+run_tests
+run_tests_asan
+run_benchmark
+
+.vscode/
+.DS_Store
+results.csv
